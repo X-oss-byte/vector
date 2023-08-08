@@ -118,7 +118,7 @@ members = [
 ]
 
 [workspace.dependencies]
-vrl = { version = "0.6.0", features = ["cli", "test", "test_framework", "arbitrary"] }
+vrl = { version = "0.6.0", default-features = false, features = ["cli", "test", "test_framework", "arbitrary", "compiler", "value", "diagnostic", "path", "parser", "stdlib", "datadog", "core"] }
 
 [dependencies]
 vrl.workspace = true
@@ -368,6 +368,8 @@ tokio-test = "0.4.2"
 tokio = { version = "1.29.1", features = ["test-util"] }
 tower-test = "0.4.0"
 vector-core = { path = "lib/vector-core", default-features = false, features = ["vrl", "test"] }
+vrl = { version = "0.6.0", features = ["cli", "test", "test_framework", "arbitrary"] }
+
 wiremock = "0.5.19"
 zstd = { version = "0.12.4", default-features = false }
 
