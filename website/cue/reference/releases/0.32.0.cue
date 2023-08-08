@@ -137,7 +137,7 @@ releases: "0.32.0": {
 		},
 		{
 			type: "enhancement"
-			scopes: ["promotheus_scrape source"]
+			scopes: ["prometheus_scrape source"]
 			description: """
 				The `prometheus_scrape` source now scrapes configured targets in parallel.
 				"""
@@ -146,7 +146,7 @@ releases: "0.32.0": {
 		},
 		{
 			type: "enhancement"
-			scopes: ["promotheus_scrape source"]
+			scopes: ["prometheus_scrape source"]
 			description: """
 				The `prometheus_scrape` source ow has a `scrape_timeout_secs` option to configure
 				how long Vector should wait for each request.
