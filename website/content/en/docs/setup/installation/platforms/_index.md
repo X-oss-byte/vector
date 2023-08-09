@@ -5,5 +5,6 @@ aliases: ["/docs/setup/installation/containers"]
 ---
 
 ## Supported platforms
+cross platform 
 
 {{< pages >}}
